@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #1C2526;
+}
+
+.navbar {
+    background-color: #1C2526;
+}
+
+.navbar-brand, .nav-link {
+    color: #F9F8F8 !important;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #D00000 !important;
+}
+
+.hero-section {
+    background: url('img/conduccion_moto_carretera_duo.jpg') no-repeat center center;
+    background-size: cover;
+    color: #F9F8F8;
+    text-align: center;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section .btn-primary {
+    background-color: #D00000;
+    border-color: #D00000;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #F48C06;
+    border-color: #F48C06;
+}
+
+.card {
+    background-color: #F9F8F8;
+    border: 1px solid #4A5859;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(28, 37, 38, 0.3);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #1C2526;
+}
+
+.card-text {
+    color: #4A5859;
+}
+
+.card .btn-primary {
+    background-color: #D00000;
+    border-color: #D00000;
+}
+
+.card .btn-primary:hover {
+    background-color: #F48C06;
+    border-color: #F48C06;
+}
+
+.table {
+    background-color: #F9F8F8;
+}
+
+.table thead {
+    background-color: #4A5859;
+    color: #F9F8F8;
+}
+
+.table th, .table td {
+    border-color: #1C2526;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(74, 88, 89, 0.1);
+}
+
+.form-control {
+    border-color: #4A5859;
+    background-color: #F9F8F8;
+}
+
+.form-control:focus {
+    border-color: #D00000;
+    box-shadow: 0 0 5px rgba(208, 0, 0, 0.5);
+}
+
+.form-label {
+    color: #1C2526;
+}
+
+aside {
+    background-color: #4A5859;
+    color: #F9F8F8;
+    padding: 20px;
+}
+
+aside a {
+    color: #D00000;
+}
+
+aside a:hover {
+    color: #F48C06;
+}
+
+footer {
+    background-color: #1C2526;
+    color: #F9F8F8;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #D00000;
+}
+
+footer a:hover {
+    color: #F48C06;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+iframe.map {
+    border: 2px solid #4A5859;
+    border-radius: 5px;
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+}

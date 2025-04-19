@@ -7,26 +7,26 @@ body {
 
 nav {
     background-color: #1C2526;
-    padding: 15px 10px; /* Más padding para un look más espacioso */
+    padding: 15px 10px; 
     position: sticky;
     top: 0;
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Alinea todo hacia la izquierda */
+    justify-content: flex-start; 
 }
 
 .navbar-brand {
     color: #F9F8F8;
-    font-size: 1.8em; /* Tamaño más grande para el logo */
+    font-size: 1.8em; 
     font-weight: bold;
     text-decoration: none;
-    padding: 10px 20px; /* Más espacio alrededor del logo */
-    transition: color 0.3s ease; /* Transición suave para el color */
+    padding: 10px 20px; 
+    transition: color 0.3s ease; 
 }
 
 .navbar-brand:hover {
-    color: #D00000; /* Color al pasar el cursor */
+    color: #D00000; 
 }
 
 nav input[type="checkbox"] {
@@ -39,7 +39,7 @@ nav .menu-icon {
     padding: 10px;
     cursor: pointer;
     display: block;
-    margin-left: auto; /* Mantiene el ícono a la derecha en móviles */
+    margin-left: auto; 
     transition: color 0.3s ease;
 }
 
@@ -53,7 +53,7 @@ nav ul {
     padding: 0;
     display: none;
     background-color: #1C2526;
-    width: 100%; /* Asegura que ocupe todo el ancho */
+    width: 100%; 
 }
 
 nav input:checked ~ ul {
@@ -69,9 +69,9 @@ nav ul li a {
     color: #F9F8F8;
     text-decoration: none;
     display: block;
-    padding: 12px 20px; /* Más espacio para los enlaces */
+    padding: 12px 20px; 
     position: relative;
-    transition: color 0.3s ease, transform 0.3s ease; /* Transición suave */
+    transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 nav ul li a.active {
@@ -80,7 +80,7 @@ nav ul li a.active {
 
 nav ul li a:hover {
     color: #D00000;
-    transform: translateX(5px); /* Efecto de desplazamiento al pasar el cursor */
+    transform: translateX(5px); 
 }
 
 nav ul li.dropdown:hover .dropdown-menu {
@@ -107,15 +107,15 @@ nav ul li.dropdown:hover .dropdown-menu {
 .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #2A3435; /* Fondo más claro para el dropdown */
+    background-color: #2A3435; 
     list-style: none;
     padding: 0;
     margin: 0;
     top: 100%;
     left: 0;
-    min-width: 180px; /* Un poco más ancho */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para el dropdown */
-    border-radius: 5px; /* Bordes redondeados */
+    min-width: 180px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px; 
 }
 
 .dropdown-menu li {
@@ -123,7 +123,7 @@ nav ul li.dropdown:hover .dropdown-menu {
 }
 
 .dropdown-menu li:last-child {
-    border-bottom: none; /* Quita el borde inferior del último elemento */
+    border-bottom: none;
 }
 
 .dropdown-menu li a {
@@ -133,7 +133,7 @@ nav ul li.dropdown:hover .dropdown-menu {
 }
 
 .dropdown-menu li a:hover {
-    background-color: #D00000; /* Fondo rojo al pasar el cursor */
+    background-color: #D00000; 
     color: #F9F8F8;
     transform: translateX(5px);
 }
